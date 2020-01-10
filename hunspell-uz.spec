@@ -1,7 +1,7 @@
 Name: hunspell-uz
 Summary: Uzbek hunspell dictionaries
 Version: 0.6
-Release: 7%{?dist}
+Release: 8%{?dist}
 Source0: http://www-user.uni-bremen.de/~kmashrab/uzbek-word-list/uzbek-wordlist-%{version}.tar.bz2
 Group: Applications/Text
 URL: http://www-user.uni-bremen.de/~kmashrab/uzbek-word-list
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.6-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.6-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
